@@ -3,6 +3,7 @@
 <html>
     <head>
         <Title>Learn NZSL Te Reo Turi</Title>
+        <link rel="icon" type="image/svg+xml" href="https://mano.nz/resources/NZSL-Logo.svg" />
     </head>
 </html>
 
@@ -46,33 +47,66 @@
         <h2>Signs</h2>
         <div style="display: flex; flex-wrap: wrap;">
             <!--Kia Ora Sign-->
-            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px;">
+            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>Kia Ora</h3>
             <svg><use href="#default_image"/></svg>
             <p>Kia ora is a friendly Māori greeting commonly used throughout Aotearoa New Zealand. It can be used to say hello, acknowledge someone, or express thanks. In an NZSL learning context, it provides a useful introduction to everyday greetings and to the relationship between NZSL and Te Reo Māori</p>
             </div>
 
             <!--Mōrena Sign-->
-            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px;">
+            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>Mōrena</h3>
             <svg><use href="#default_image"/></svg>
             <p>Mōrena is a Māori greeting meaning "good morning". It is commonly used as a warm and informal greeting at the beginning of the day. Learning greetings such as Mōrena gives beginners some useful vocabulary for starting simple conversations in NZSL.</p>
             </div>
 
             <!--You Sign-->
-            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px;">
+            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>You</h3>
             <svg><use href="#default_image"/></svg>
             <p>You is a useful introductory pronoun for NZSL learners and can be used when addressing another person. Pronouns are particularly interesting in NZSL because the signing space can be used to identify and refer to people. This makes simple words such as "you" a good starting point for exploring how NZSL communicates meaning visually./p>
             </div>
 
             <!--I/Me Sign-->
-            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px;">
+            <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>I/Me</h3>
             <svg><use href="#default_image"/></svg>
             <p>I/Me refers to the person who is signing and is another useful introductory pronoun. Learning "I/me" alongside "you" allows beginners to start constructing simple interactions and conversations. These everyday words also provide an opportunity to explore how meaning is expressed through the use of space in NZSL.</p>
             </div>
         </div>
+    </section>
+
+    <!--PLOT SECTION-->
+    <section id="plots">
+        <h2>Plots</h2>
+
+        <svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg">
+            <!--Axis Values-->
+            <text x="70.0" y="422" text-anchor="middle">0</text>
+            <text x="680.0" y="422" text-anchor="middle">400</text>
+            <text x="58" y="404.0" text-anchor="end">40</text>
+            <text x="58" y="54.0" text-anchor="end">100</text>
+
+            <!--Axis-->
+            <!--x runs from 70 to 680 (610 wide)-->
+            <line x1="70" y1="400" x2="680" y2="400" stroke="black"/>
+            <!--y runs from 50 to 350 (350 tall)-->
+            <line x1="70" y1="50" x2="70" y2="400" stroke="black"/>
+
+            <!--Labels-->
+            <text x="375.0" y="445" text-anchor="middle">Practice Minutes</text>
+            <text transform="translate(20 225.0) rotate(-90)" text-anchor="middle">Quiz Score</text>
+
+            <!--Points-->
+            <!--
+            Formula:
+            cx = 70  + (minutes − 0)  / 400 × 610
+            cy = 400 − (quiz − 40)    / 60  × 350
+            -->
+            <circle cx="182.8" cy="388.3" r="4.5"></circle>
+            <circle cx="423.8" cy="79.2" r="4.5"></circle>
+            <circle cx="356.7" cy="225.0" r="4.5"></circle>
+        </svg>
     </section>
 </body>
 
