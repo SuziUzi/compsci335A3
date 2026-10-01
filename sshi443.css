@@ -25,8 +25,19 @@ video {
     height: auto;
     margin: 0 auto;
 }
+.sign-card {
+    flex-basis: 40%;
+    background-color: lightgrey;
+    margin: 3ex;
+    padding: 1ex;
+    border: 2px solid black;
+}
 #signs h3 {
     text-align: center;
+}
+
+.title {
+    text-decoration: underline;
 }
 #plots svg {
     display: block;
