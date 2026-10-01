@@ -1,1 +1,37 @@
+body {
+    max-width: 1200px;       /* the content column */
+    margin: 0 auto;         /* centres the column horizontally */
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align stays left by default */
+}
+h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 0.3em;
+}
+footer {
+    padding-top: 2em;
+}
+video {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.sign-img {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+#signs h3 {
+    text-align: center;
+}
+#plots svg {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
 .points circle {fill:rgb(25, 89, 209); opacity: 0.6;}

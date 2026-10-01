@@ -6,18 +6,18 @@
         <link rel="icon" type="image/svg+xml" href="https://mano.nz/resources/NZSL-Logo.svg" />
         <link rel="stylesheet" href="sshi443.css"/>
     </head>
-</html>
-
-<header>
-    <h1>Learn New Zealand Sign Language (NZSL, Te Reo Turi)</h1>
-    
-    <!--Navigation links-->
-    <nav>
-        <a href="#about">About</a> <a href="#video">Video</a> <a href="#signs">Signs</a> <a href="#plots">Plots</a> <a href="#register">Regiester</a>
-    </nav>
-</header>
 
 <body>
+    <!--HEADER-->
+    <header>
+        <h1>Learn New Zealand Sign Language (NZSL, Te Reo Turi)</h1>
+        
+        <!--Navigation links-->
+        <nav>
+            <a href="#about">About</a> <a href="#video">Video</a> <a href="#signs">Signs</a> <a href="#plots">Plots</a> <a href="#register">Register</a>
+        </nav>
+    </header>
+
     <!--ABOUT SECTION-->
     <section id="about">
         <h2>About</h2>
@@ -46,32 +46,32 @@
         </div>
 
         <h2>Signs</h2>
-        <div style="display: flex; flex-wrap: wrap;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center;">
             <!--Kia Ora Sign-->
             <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>Kia Ora</h3>
-            <svg><use href="#default_image"/></svg>
+            <<svg class="sign-img" viewBox="0 0 400 400"><use href="#default_image"/></svg>
             <p>Kia ora is a friendly Māori greeting commonly used throughout Aotearoa New Zealand. It can be used to say hello, acknowledge someone, or express thanks. In an NZSL learning context, it provides a useful introduction to everyday greetings and to the relationship between NZSL and Te Reo Māori</p>
             </div>
 
             <!--Mōrena Sign-->
             <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>Mōrena</h3>
-            <svg><use href="#default_image"/></svg>
+            <svg class="sign-img" viewBox="0 0 400 400"><use href="#default_image"/></svg>
             <p>Mōrena is a Māori greeting meaning "good morning". It is commonly used as a warm and informal greeting at the beginning of the day. Learning greetings such as Mōrena gives beginners some useful vocabulary for starting simple conversations in NZSL.</p>
             </div>
 
             <!--You Sign-->
             <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>You</h3>
-            <svg><use href="#default_image"/></svg>
-            <p>You is a useful introductory pronoun for NZSL learners and can be used when addressing another person. Pronouns are particularly interesting in NZSL because the signing space can be used to identify and refer to people. This makes simple words such as "you" a good starting point for exploring how NZSL communicates meaning visually./p>
+            <svg class="sign-img" viewBox="0 0 400 400"><use href="#default_image"/></svg>
+            <p>You is a useful introductory pronoun for NZSL learners and can be used when addressing another person. Pronouns are particularly interesting in NZSL because the signing space can be used to identify and refer to people. This makes simple words such as "you" a good starting point for exploring how NZSL communicates meaning visually.</p>
             </div>
 
             <!--I/Me Sign-->
             <div style="flex-basis: 40%; background-color: lightgrey; margin: 3ex; padding: 1ex; border: 2px solid black;">
             <h3>I/Me</h3>
-            <svg><use href="#default_image"/></svg>
+            <svg class="sign-img" viewBox="0 0 400 400"><use href="#default_image"/></svg>
             <p>I/Me refers to the person who is signing and is another useful introductory pronoun. Learning "I/me" alongside "you" allows beginners to start constructing simple interactions and conversations. These everyday words also provide an opportunity to explore how meaning is expressed through the use of space in NZSL.</p>
             </div>
         </div>
@@ -242,8 +242,9 @@
         </svg>
     </section>
 
-    <!--REGIESTER SECTION-->
+    <!--REGISTER SECTION-->
     <section id="register">
+        <h2>Register</h2>
         <div>
             <label>Username: <input id="username" type="text"/></label>
             <br>
@@ -252,8 +253,10 @@
             <button type="button">Register</button>
         </div>
     </section>
-</body>
 
-<footer>
-    <p>Susan 261424786</p>
-</footer>
+    <!--FOOTER-->
+    <footer>
+        <p><i>Susan 261424786</i></p>
+    </footer>
+</body>
+</html>
